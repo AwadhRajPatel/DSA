@@ -38,7 +38,7 @@ public class MX {
                 nsl[i] = s.peek();
             }
             s.push(i); // Push the current index to stack
-        }
+        } 
 
         // Current Area Width = j-i-1 = nsr[i]-nsl[i]-1
         for (int i = 0; i < arr.length; i++) {
